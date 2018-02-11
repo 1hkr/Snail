@@ -1,0 +1,52 @@
+/* Your board style here */
+table {
+  width: 100%;
+}
+.racer_table td {
+  height: 100px;
+/*
+padding: 40px;*/
+margin: 0 10px;
+width: 7.15%;
+}
+.racer_table td.active {
+  background-repeat: no-repeat;
+  background-size: contain;
+
+}
+
+#player1_race td {
+  border-bottom: 10px double white;
+}
+
+
+#player1_race td.active {
+  background-image: url("images/Turbo_Snail.png");
+  background-size: contain;
+  background-position: center;
+}
+#player2_race td.active {
+  background-image: url("images/Burn (1).png");
+  background-size: contain;
+  background-position: center;
+}
+
+#finish {
+  background-image: url("images/ska.png");
+  background-size: cover;
+}
+
+body {
+  background-color: #ff5252;
+}
+
+h1 {
+  font-family: 'Lobster', cursive;
+  text-decoration: underline;
+  color: white;
+}
+
+hr {
+  margin: 100px 0px;
+  border: none;
+}
